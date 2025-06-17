@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5 CSS CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awsome 6.7 CSS Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive_style.css">
+
+    <!-- FAVICON  -->
+    <link rel="icon" href="./assets/images/favicon.png">
+
+    <title>Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+
+    <!-- Navbar Section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="./assets/images/logo.png" alt="#logo" class="img-fluid">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-stream navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hello</h2>
+                    <h1 class="text-uppercase">I am Sourav Mondal</h1>
+                    <h5 class="text-uppercase">Full Stack Developer</h5>
+                    <div class="mt-5">
+                        <a href="#contact" class="main-btn primary-btn">Hire Me</a>
+                        <a href="./assets/cv/Resume - Sourav Mondal.pdf" target="_blank"
+                            class="main-btn secondary-btn">Get CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="./assets/images/home-right.webp" alt="#bannerImg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="./assets/images/about-us.webp" alt="#aboutImg" class="img-fluid">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h3>Let's <br>Introduce about <br>myself</h3>
+                    <p>To continuously enhance my capability through the synergy of learning and growing, to have a
+                        positive attitude in life and to work in a growth-oriented organization which provides an
+                        opportunity to enhance technical skills acquired and evolve as a working professional who grow
+                        along with the organization.</p>
+                    <a href="./assets/cv/Resume - Sourav Mondal.pdf" target="_blank"
+                        class="main-btn primary-btn mt-4">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5 mt-5">
+                    <h2>EDUCATION</h2>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="./assets/images/education-img/mouse.webp" alt="#serviceImg1" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">M.C.A.</h5>
+                        <h6>M.S.I.T.</h6>
+                        <p>2021 - 2023</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="./assets/images/education-img/seo.webp" alt="#serviceImg2" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">B.SC.</h5>
+                        <h6>SAMBHUNATH COLLEGE</h6>
+                        <p>2018 - 2021</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="./assets/images/education-img/ui-ux.webp" alt="#serviceImg3" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">H.S.</h5>
+                        <h6>A.G.H.S.</h6>
+                        <p>2018</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div>
+                            <img src="./assets/images/education-img/website.webp" alt="#serviceImg4" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">S.E.</h5>
+                        <h6>A.G.H.S.</h6>
+                        <p>2016</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skill-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-md-5 mb-2">
+                    <h2>SKILLS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one"
+                            aria-selected="true">Front-end</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
+                            type="button" role="tab" aria-controls="pills-two" aria-selected="false">Back-end</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                            aria-selected="false">Database</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                        aria-labelledby="pills-one-tab">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img202403226962.jpg"
+                                        class="card-img-top img-fluid" alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">HTML</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img20240322561.jpg" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">CSS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img202403225612.jpg" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Bootstrap</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img20240322765.jpg" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">React JS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img202403235536.png" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">PHP</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img202403229864.jpg" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Laravel</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img202403229813.png" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Python</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img202403221236.png" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Java</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img2024032212361.png"
+                                        class="card-img-top" alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Spring</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img202403222978.png" class="card-img-top"
+                                        alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">JavaScript</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img20240322696265.png"
+                                        class="card-img-top" alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">TypeScript</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img2024032256132.png"
+                                        class="card-img-top" alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Oracle</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img20240322561115.png"
+                                        class="card-img-top" alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">MySQL</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-6 p-3">
+                                <div class="card">
+                                    <img src="./assets/images/skills/cat_plang_img20240322297833.png"
+                                        class="card-img-top" alt="#skill">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">MongoDB</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>EXPERIENCE</h2>
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                <img src="./assets/images/experience/webskitters.jpg" alt="#webskitters"
+                                    class="img-fluid">
+                                Webskitters Academy
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Job Role</td>
+                                            <td>Trainee</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Technology</td>
+                                            <td>
+                                                <ul>
+                                                    <li>Cust HTML, CSS, Bootstrap</li>
+                                                    <li>Adv. JS</li>
+                                                    <li>MERN stack(Mongo DB, Express JS, React JS, Node JS)</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Starting Date</td>
+                                            <td>SEP, 2024</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ending Date</td>
+                                            <td>ongoing</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Duration</td>
+                                            <td>--------</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <img src="./assets/images/experience/worinwell.JPG" alt="#worinwell" class="img-fluid">
+                                Worin Well
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Job Role</td>
+                                            <td>Back-end Developer Intern</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Technology</td>
+                                            <td>
+                                                <ul>
+                                                    <li>PHP</li>
+                                                    <li>Laravel</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Starting Date</td>
+                                            <td>AUG, 2023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ending Date</td>
+                                            <td>NOV, 2023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Duration</td>
+                                            <td>4 Months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                <img src="./assets/images/experience/sipl.png" alt="#sipl" class="img-fluid">
+                                Sikharthy Infotech Pvt. Ltd.
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Job Role</td>
+                                            <td>Full Stack Developer Intern (Back-end Development)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Technology</td>
+                                            <td>
+                                                <ul>
+                                                    <li>JAVA</li>
+                                                    <li>Spring Boot</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Starting Date</td>
+                                            <td>JUN, 2023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ending Date</td>
+                                            <td>JUL, 2023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Duration</td>
+                                            <td>2 Months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                <img src="./assets/images/experience/sipl.png" alt="#sipl" class="img-fluid">
+                                Sikharthy Infotech Pvt. Ltd.
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Job Role</td>
+                                            <td>Full Stack Developer Intern</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Technology</td>
+                                            <td>
+                                                <ul>
+                                                    <li>JAVA</li>
+                                                    <li>JSP Servlet</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Starting Date</td>
+                                            <td>MAR, 2023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ending Date</td>
+                                            <td>APR, 2023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Duration</td>
+                                            <td>2 Months</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="project-wrapper">
+        <div class="container">
+            <div class="text-center mb-5 mt-5">
+                <h2>PROJECT</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-md-4 col-sm-6 pb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <img src="./assets/images/project/project-1.jpg" alt="#projectImg1" class="img-fluid">
+                        <div class="project-details">
+                            <div class="project-text text-center">
+                                <h5 class="text-white mb-0">Venu Management</h5>
+                                <div class="border-line"></div>
+                                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                                    data-bs-target="#project1Modal">
+                                    View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 pb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <img src="./assets/images/project/project-2.jpg" alt="#projectImg2" class="img-fluid">
+                        <div class="project-details">
+                            <div class="project-text text-center">
+                                <h5 class="text-white mb-0">Voting Management</h5>
+                                <div class="border-line"></div>
+                                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                                    data-bs-target="#project2Modal">
+                                    View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6 pb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <img src="./assets/images/project/project-3.jpg" alt="#projectImg3" class="img-fluid">
+                        <div class="project-details">
+                            <div class="project-text text-center">
+                                <h5 class="text-white mb-0">Coding Forum</h5>
+                                <div class="border-line"></div>
+                                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                                    data-bs-target="#project3Modal">
+                                    View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project-modal  -->
+    <!-- Project-1 Modal -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Online Venue Management System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="mx-3">
+                        <li>
+                            <p>Proficient in front-end web development using HTML, CSS, and JavaScript to create a
+                                user-friendly interface for Book My Venue.
+                        </li>
+                        <li>
+                            <p> Skilled in responsive web design techniques, ensuring the platform looks and functions
+                                seamlessly across different devices.</p>
+                        </li>
+                        <li>
+                            <p> Experienced in utilizing SCSS and Bootstrap to enhance the styling and layout of the
+                                website, providing a visually appealing experience for users.</p>
+                        </li>
+                        <li>
+                            <p> Developed back-end functionality using Java and JSP Servlet to handle data processing,
+                                user authentication, and database integration.</p>
+
+                        </li>
+                        <li>
+                            <p> Familiar with Tomcat Local Server V9.0 and XAMPP for local development and testing of
+                                the Book My Venue project.</p>
+                        </li>
+                    </ul>
+                    <p><strong>Skills:</strong> HTML5, Cascading Style Sheets (CSS), Bootstrap (Framework), JavaServer
+                        Pages (JSP), Servlets, JavaScript, Java Database Connectivity (JDBC), MySQL</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project-2 Modal -->
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project2ModalLabel">Online Voting Management System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="mx-3">
+                        <li>
+                            <p>User Interface (HTML, CSS and Bootstrap):
+                                Design the web pages for the voting system using HTML, CSS and Bootstrap.
+                                Create pages for user registration, login, candidate selection, and voting.
+                                Apply CSS styles to enhance the visual appearance of the pages.</p>
+                        </li>
+                        <li>
+                            <p> User Authentication (JSP):
+                                Use JSP (JavaServer Pages) to handle user registration and login functionality.
+                                Create JSP pages for user registration and login forms.
+                                Validate user inputs and store user information in the MySQL database.</p>
+                        </li>
+                        <li>
+                            <p> Backend Database (MySQL):
+                                Set up a MySQL database to store user information, candidate details, voter details and
+                                voting records.
+                                Establish a connection between the application and the MySQL database using JDBC (Java
+                                Database Connectivity).</p>
+                        </li>
+                        <li>
+                            <p> Server-Side Programming (Servlets):
+                                Create Servlets to handle user requests and responses.
+                                Retrieve and store data in the MySQL database using JDBC.</p>
+                        </li>
+                        <li>
+                            <p> Voting Process:
+                                Design the user interface for candidate selection and voting using HTML, CSS, and
+                                JavaScript.
+                                Use JavaScript to handle user interactions on the client-side, such as selecting
+                                candidates and submitting votes.
+                                Send requests to the server-side to record the votes in the MySQL database.</p>
+                        </li>
+                        <li>
+                            <p> Vote Counting and Result Display:
+                                Implement vote counting logic on the server-side using Servlets and MySQL queries.
+                                Calculate and store vote counts in the database.
+                                Design result pages using HTML, CSS, and JSP to display the outcome of the voting
+                                process.</p>
+                        </li>
+                    </ul>
+                    <p><strong>Skills:</strong> HTML5, Cascading Style Sheets (CSS), Bootstrap (Framework), JavaServer
+                        Pages (JSP), Servlets, Java Database Connectivity (JDBC), MySQL </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project-3 Modal -->
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project3ModalLabel">Higher Secondary Exam</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>An online coding forum is a virtual platform where programmers, developers, and coding
+                        enthusiasts gather to discuss various topics related to programming, software development, and
+                        technology. These forums typically offer a space for members to ask questions, seek help with
+                        coding problems, share their expertise, and stay updated on the latest trends and developments
+                        in the tech industry.</p>
+                    <ul class="mx-3">
+                        <li>
+                            <p>Discussion Boards: Sections dedicated to specific programming languages, frameworks,
+                                tools, and technologies where users can engage in discussions, ask questions, and share
+                                insights.</p>
+                        </li>
+                        <li>
+                            <p> Q&A Sections: Areas where members can post coding questions and receive answers and
+                                solutions from the community.</p>
+                        </li>
+                        <li>
+                            <p> Code Sharing: Facilities for sharing code scripts, and projects for feedback and
+                                collaboration.
+                                4. Resources: Repositories of guides, discussions, and other educational materials to
+                                help users learn new concepts and improve their coding skills.</p>
+                        </li>
+                    </ul>
+                    <p>Overall, online coding forums serve as valuable hubs for learning, collaboration, and networking
+                        for individuals passionate about coding and software development.</p>
+
+                    <p><strong>Skills:</strong> HTML5, Cascading Style Sheets (CSS), Bootstrap (Framework), PHP, MySQL
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row justify-content-center text-center px-4 newsletter">
+                <h3 class="text-white pb-5">CONTACT ME</h3>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 pb-md-3 pb-sm-2 pb-5">
+                    <div class="icon-design m-auto">
+                        <img src="./assets/images/contact/call.svg" alt="#call">
+                    </div>
+                    <div class="pt-2">
+                        <h6 class="fw-bold text-white mb-0">Call Me</h6>
+                        <p class="m-0">(+91) 7029283964</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12 pb-md-3 pb-sm-2 pb-5">
+                    <div class="icon-design m-auto">
+                        <img src="./assets/images/contact/emai.svg" alt="#mail">
+                    </div>
+                    <div class="pt-2">
+                        <h6 class="fw-bold text-white mb-0">Email Me</h6>
+                        <p class="m-0">souravm414@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12 pb-md-3 pb-sm-2 pb-5">
+                    <div class="icon-design m-auto">
+                        <img src="./assets/images/contact/map.svg" alt="#address">
+                    </div>
+                    <div class="pt-2">
+                        <h6 class="fw-bold text-white mb-0">Address</h6>
+                        <p class="m-0">Kolkata, W.B.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container my-3">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="./assets/images/logo.png" alt="#logo" class="img-fluid">
+                    </div>
+                    <div class="my-4 social-icons">
+                        <h5>Follow Me</h5>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li><a href="http://www.linkedin.com/in/sourav-mondal-7985b9245"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.hackerrank.com/profile/souravm414"><i
+                                        class="fa-brands fa-hackerrank"></i></a></li>
+                            <li><a href="https://github.com/Sourav-gittech"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://stackoverflow.com/users/30826584/sourav"><i
+                                        class="fa-brands fa-stack-overflow"></i></a></li>
+                            <li><a href="https://t.me/souravm414"><i class="fa-brands fa-telegram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <p class="footer-text text-center my-2">Copyright &copy; 2025 All Rights Reserved. | <a
+                            href="#home">PORTFOLIO&trade;</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<!-- Bootstrap 5 JS CDN Link  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<!-- Custom JS  -->
+<script src="./assets/js/script.js"></script>
+
+</html>

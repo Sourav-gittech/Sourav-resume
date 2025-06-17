@@ -19,7 +19,7 @@
     }
 
     /* Project CSS  */
-    .project-wrapper .project-details{
+    .project-wrapper .project-details {
         top: .3125rem;
         left: .3125rem;
         right: .3125rem;
@@ -71,7 +71,7 @@
 @media (max-width: 575.5px) {
 
     /* Project CSS  */
-    .project-wrapper .project-details{
+    .project-wrapper .project-details {
         top: 2.1875rem;
         left: 2.1875rem;
         right: 2.1875rem;
@@ -79,10 +79,76 @@
     }
 }
 
+@media screen and (max-width: 426px) {
+
+    /* experience CSS  */
+
+    #experience #accordionPanelsStayOpenExample .accordion-item {
+        border-radius: 8px;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
+        height: 80px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button::after {
+        border-radius: 0 8px 8px 0;
+        width: 5rem;
+        background-size: 2rem;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+        border-radius: 8px 0 0 8px;
+    }
+
+}
+
 @media (max-width: 390px) {
 
     /* Banner CSS  */
-    .banner_wrapper .banner-content h2::after{
+    .banner_wrapper .banner-content h2::after {
         left: 34%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    /* experience CSS  */
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
+        height: 60px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button::after {
+        border-radius: 0 6px 6px 0;
+        width: 4rem;
+        background-size: 1.5rem;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+        border-radius: 6px 0 0 6px;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-body table tbody {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    /* experience CSS  */
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
+        font-size: 12px;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button::after {
+        background-size: 1.2rem;
+    }
+
+    #experience #accordionPanelsStayOpenExample .accordion-item .accordion-body table tbody {
+        font-size: 8px;
     }
 }

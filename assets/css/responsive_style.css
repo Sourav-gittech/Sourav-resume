@@ -51,7 +51,7 @@
 
 @media (max-width: 767px) {
 
-    /* Ganaral CSS  */
+    /* General CSS  */
     h1 {
         font-size: 2.5rem;
         line-height: 3rem;
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 426px) {
 
-    /* experience CSS  */
+    /* Experience CSS  */
 
     #experience #accordionPanelsStayOpenExample .accordion-item {
         border-radius: 8px;
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 376px) {
 
-    /* experience CSS  */
+    /* Experience CSS  */
     #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
         height: 60px;
         font-size: 14px;
@@ -135,11 +135,16 @@
     #experience #accordionPanelsStayOpenExample .accordion-item .accordion-body table tbody {
         font-size: 10px;
     }
+
+    /* Footer CSS  */
+    footer .social-icons ul{
+        padding: 0 10px;
+    }
 }
 
 @media screen and (max-width: 320px) {
 
-    /* experience CSS  */
+    /* Experience CSS  */
     #experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button {
         font-size: 12px;
     }
@@ -150,5 +155,10 @@
 
     #experience #accordionPanelsStayOpenExample .accordion-item .accordion-body table tbody {
         font-size: 8px;
+    }
+
+    /* Footer CSS  */
+    footer .social-icons ul{
+        padding: 0 10px 0 50px;
     }
 }

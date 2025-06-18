@@ -47,6 +47,15 @@
     /* font family  */
     --primary-font: "Rubik", serif;
     --secondary-font: "Roboto", serif;
+
+    /* social logo color  */
+    --linkedin-color: #0c64c5;
+    --hackerrank-color: #00ea64;
+    --github-color: #1b1f23;
+    --stackoverflow-color: #f4811f;
+    --quora-color: #a72201;
+    --telegram-color: #29a9ea;
+    --leetcode-color: #f89f1b;
 }
 
 body {
@@ -516,10 +525,39 @@ footer .social-icons li a {
     color: var(--text-black);
     text-align: center;
     margin: 0 .625rem;
+    transition: all .5s ease;
 }
 
-footer .social-icons li a:hover {
-    color: var(--text-primary);
+footer .social-icons li a i:hover{
+transform: scale(1.1);
+}
+
+footer .social-icons li:first-child a i:hover {
+    color: var(--linkedin-color);
+}
+
+footer .social-icons li:nth-child(2) a i:hover {
+    color: var(--hackerrank-color);
+}
+
+footer .social-icons li:nth-child(3) a i:hover {
+    color: var(--github-color);
+}
+
+footer .social-icons li:nth-child(4) a i:hover {
+    color: var(--stackoverflow-color);
+}
+
+footer .social-icons li:nth-child(5) a i:hover {
+    color: var(--quora-color);
+}
+
+footer .social-icons li:nth-child(6) a i:hover {
+    color: var(--leetcode-color);
+}
+
+footer .social-icons li:last-child a i:hover {
+    color: var(--telegram-color);
 }
 
 footer .footer-text {

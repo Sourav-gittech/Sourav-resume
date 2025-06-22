@@ -77,6 +77,11 @@
         right: 2.1875rem;
         bottom: 2.1875rem;
     }
+
+    /* Contact CSS  */
+    .contact_wrapper .newsletter {
+        padding: 5.375rem 0;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -137,8 +142,12 @@
     }
 
     /* Footer CSS  */
-    footer .social-icons ul{
+    footer .social-icons ul {
         padding: 0 10px;
+    }
+
+    footer .social-icons li a {
+        margin: 0 .35rem;
     }
 }
 
@@ -158,7 +167,7 @@
     }
 
     /* Footer CSS  */
-    footer .social-icons ul{
-        padding: 0 10px 0 50px;
+    footer .social-icons li a {
+        margin: 0 .3rem;
     }
 }

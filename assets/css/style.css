@@ -403,7 +403,7 @@ p {
     transition: all .5s ease-in;
 }
 
-#experience #accordionPanelsStayOpenExample .accordion-item .accordion-header .accordion-button:hover img {
+.image_rotate{
     transform: rotate(360deg);
 }
 

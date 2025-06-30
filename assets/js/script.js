@@ -20,6 +20,19 @@ navlink.forEach(function (a) {
 });
 
 
+// Company Logo Rotate When Clicking Experience 
+document.querySelectorAll('.accordion-button').forEach(btn => {
+    btn.addEventListener('click', function () {
+        const imgId = btn.getAttribute('data-img-id');
+        const img = document.getElementById(imgId);
+        
+        if (img) {
+            img.classList.toggle('image_rotate');
+        }
+    });
+});
+
+
 // Calculate Experience Duration 
 
 let monthArr = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
